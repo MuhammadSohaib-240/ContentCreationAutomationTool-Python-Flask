@@ -1,0 +1,77 @@
+// TTS.scss
+
+$primary-color: #007bff;
+$primary-hover-color: #0765c9;
+$background-color: #f7f7f7;
+$text-color: #333;
+
+.tts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background: url('../../images/background4.jpg') center/cover no-repeat;
+	overflow-y: scroll;
+  
+	.tts-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+		width: 50%;
+		height: 70vh;
+  
+	  textarea {
+		background: transparent;
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		width: 100%;
+		height: 50vh;
+		padding: 10px;
+		margin-bottom: 10px;
+		color: #fff;
+		box-sizing: border-box;
+		border-radius: 4px;
+		resize: none;
+		overflow-y: scroll;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+
+		&:focus {
+			outline: none; // Add this rule to remove the focus outline
+		}
+	  }
+  
+	  .buttons {
+		display: flex;
+		gap: 20px;
+
+		button {
+			width: 100%;
+			background-color: $primary-color;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			transition: 0.3s ease-in-out;
+	  
+			&:hover {
+			  background-color: $primary-hover-color;
+			}
+		  }
+	  	}
+  
+	  audio {
+		width: 100%;
+	  }
+	}
+  }

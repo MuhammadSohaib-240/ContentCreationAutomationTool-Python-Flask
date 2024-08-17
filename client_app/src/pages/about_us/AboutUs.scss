@@ -1,0 +1,57 @@
+// AboutUs.scss
+.about-us-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/background4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 270px;
+  height: 270px;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.team-member-card img {
+  width: 140px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member-card h2 {
+  margin-bottom: 5px;
+}
+
+.team-member-card p {
+  margin-bottom: 8px;
+}
+
+// Add additional styles as needed

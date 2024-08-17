@@ -1,0 +1,114 @@
+// Home.scss
+.landing-page {
+  background-image: url("../../images/background4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+.nav-links-container {
+  display: flex;
+}
+
+.nav-links-container .link {
+  cursor: pointer;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  &:hover {
+    background-color: #007bff;
+  }
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 20px;
+  color: white;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  p {
+    width: 75%;
+  }
+
+  .link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 8px 20px;
+    width: max-content;
+
+    &:hover {
+      background-color: #007bff;
+    }
+  }
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  img {
+    width: 35%;
+    height: auto;
+  }
+}
