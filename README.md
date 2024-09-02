@@ -4,6 +4,13 @@
 
 This project is a web application that automates the creation of content by scraping the latest Hollywood news from multiple reliable sources. Using machine learning, it categorizes and organizes article titles. By clicking on any title, the tool generates a complete article with an AI-generated voiceover. The voiceover is segmented by pauses and key phrases, facilitating the creation of video slides. Users can upload images to these slides to easily produce videos.
 
+## Achivement
+
+Won 1st prize in artificial intelligence project exhibition. Following are certificates on achivements for this project:
+![Certificate of Achievement - AI](https://github.com/user-attachments/assets/a18ec6b0-1f64-463e-8a59-a94cbc03f21c)
+
+![Certificate of Appreciation - AI](https://github.com/user-attachments/assets/1ee7e86a-6971-4b18-8740-fce6e7f82f22)
+
 ## Features
 
 - **Automated News Scraping**: Collects the latest Hollywood news from various reliable sources.
