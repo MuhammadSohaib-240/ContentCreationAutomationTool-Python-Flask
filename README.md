@@ -6,7 +6,7 @@ This project is a web application that automates the creation of content by scra
 
 ## Achivement
 
-Won 1st prize in artificial intelligence project exhibition. Following are certificates on achivements for this project:
+Won 1st prize in artificial intelligence project exhibition.
 
 <img src="https://github.com/user-attachments/assets/a18ec6b0-1f64-463e-8a59-a94cbc03f21c" width="600" height="400"/>
 
