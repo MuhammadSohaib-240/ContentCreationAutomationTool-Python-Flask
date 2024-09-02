@@ -8,9 +8,9 @@ This project is a web application that automates the creation of content by scra
 
 Won 1st prize in artificial intelligence project exhibition. Following are certificates on achivements for this project:
 
-<img src="https://github.com/user-attachments/assets/a18ec6b0-1f64-463e-8a59-a94cbc03f21c" width="400" height="400"/>
+<img src="https://github.com/user-attachments/assets/a18ec6b0-1f64-463e-8a59-a94cbc03f21c" width="400" height="800"/>
 
-<img src="https://github.com/user-attachments/assets/1ee7e86a-6971-4b18-8740-fce6e7f82f22" width="400" height="400"/>
+<img src="https://github.com/user-attachments/assets/1ee7e86a-6971-4b18-8740-fce6e7f82f22" width="400" height="800"/>
 
 
 ## Features
