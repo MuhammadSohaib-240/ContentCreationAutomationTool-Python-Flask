@@ -50,4 +50,4 @@ The web scraping component depends on the structure of the websites being scrape
 
 ## Contact
 
-For any questions or further information, please feel free to contact me through my [GitHub profile](https://github.com/your-username).
+For any questions or further information, please feel free to contact me through my [LinkedIn profile](https://www.linkedin.com/in/muhammad-sohaib-2543a8286/).
